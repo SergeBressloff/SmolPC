@@ -18,6 +18,12 @@ All AI models are run locally on-device, so it does not need an internet connect
 **Main Application:** [LibreOfficeAI](https://github.com/bthompson-dev/LibreOfficeAI)  
 **MCP Server:** [libre-office-mcp](https://github.com/bthompson-dev/libre-office-mcp)
 
+<div align="center">
+<a href="https://www.youtube.com/watch?v=Irl9qpCHv_0">
+  <img src="https://github.com/bthompson-dev/SmolPC/blob/main/Assets/LibreOfficeAI%20Screenshot.png" alt="AI Assistant for LibreOffice - Demonstration Video" width="550"/>
+</a>
+</div>
+
 ### AI Assistant for TextLocator
 
 **Author:** Jinshuo Liu  
@@ -57,3 +63,29 @@ The AI Assistant to turn story text into audio, with customized voice narrative.
 
 **Main Application:** [ReadinTime (Voice) V1.5](https://github.com/Jack5316/ReadinTime-V1.5)        
 **Zip-Folder:**[Zip-Folder](https://drive.google.com/file/d/1GHYxul1Gc1pv5ShVM1Gv2ZDf713Xo6q_/view?usp=sharing)
+
+### Speak & See 3D
+
+**Author:** Serge Bressloff  
+**Contact:** Sbressloff@gmail.com
+
+Speak & See 3D is a desktop application that generates 3D assets from natural language prompts. It combines OpenAI’s Whisper for speech-to-text transcription, Flux.1 for text-to-image diffusion, and TripoSR for single-image 3D reconstruction, enabling rapid content creation. To streamline deployment and improve usability, the system is compiled into standalone executables using Nuitka, with separate CPU and GPU builds provided to support different hardware configurations. This approach makes advanced AI-driven asset generation both accessible and extensible.
+
+**Main Application:** [Speak & See 3D](https://github.com/SergeBressloff/SpeakAndSee3D)  
+**OneDrive:** [Download here](https://liveuclac-my.sharepoint.com/:f:/g/personal/zctysps_ucl_ac_uk/EvmWWOmKy5hCm6Bi4H0g5XgBwAlqPTlG2DtNifSInJ124w?e=hfgnVX)
+
+### AI Assistant for Texteditor
+
+**Author:** Zihong Song
+
+**Contact:** songzihong222@gmail.com
+
+The AI Assistant for Texteidtor integrates local AI into the open-source desktop text editing app QOwnNotes (MFC Framework). It helps you editing text contents such as text summarizing, polishing, translating. You can also ask any related questions in terms of the fields the text contents involved. 
+e.g. “summary the above deep learning article and explain what does the term segmentation mean? Can you give me an additional example of the segmentation”
+
+The app also offers voice transcription via Distil-Whisper (OpenVINO), so you can speak instead of typing. All models run fully offline on your PC (Granite for dealing with the question asked by the users, keeping data private and usable without internet.
+It also offers RAG（Retrieval-Augmented Generation）to improve the local interaction with the LLM model.
+
+**Main Application:** [Local AI Assistant for TextEditor](https://github.com/szh123-ucl/Msc-Computer-Science-project-OSS-Pilots-AI-PC-app-and-source-code)(MFC)
+
+**Zip-Folder:**[Download Here](https://github.com/szh123-ucl/Msc-Computer-Science-project-OSS-Pilots-AI-PC-app-and-source-code/releases)
